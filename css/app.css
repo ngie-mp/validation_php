@@ -1,0 +1,127 @@
+.left{float:left;}
+.right{float:right;}
+
+.logo {
+  font-size: 2.8em;
+  color: #f5f5f5;
+  margin: 0 !important;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+li {
+  display: inline-block;
+}
+
+a{
+  color: #f6f6f6;
+}
+
+footer{
+  padding: 0.8em 0;
+  text-align: center;
+  color: #e7e7e7;
+}
+
+.noshadow{
+  box-shadow: none;
+}
+
+.nomarg{
+  margin-bottom: 0px !important;
+}
+
+form{
+  margin: 0 auto;
+}
+header {
+  padding: 0.5em 0;
+}
+
+.ttl {
+  font-size: 1.5em;
+  text-align: center;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0.5em 0;
+  margin-bottom: 1em;
+}
+.ttl-prdct {
+  font-size: 1.5em;
+  color: #222222;
+  margin: 0.5em 0;
+  padding: 0.8em 0;
+}
+#cart{
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 60px;
+  overflow: hidden;
+}
+#cart>ul{
+  position: relative;
+  height: 100%;
+  margin: 0;
+  overflow-y: auto;
+}
+#cart>ul>li{
+  background-color: white;
+  padding:8px;
+  margin: 1px 0 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+#cart>ul>li:not(.removing):hover:after{
+  position: absolute;
+  content: "x";
+  right: 0;
+  color: white;
+  background-color: #222222;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  border-radius: 12px;
+  margin-right: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px 0px;
+}
+
+#pay{
+  position: absolute;
+  display: block;
+  height: 60px;
+  line-height:60px;
+  width: 100%;
+  bottom: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+#signin {
+  margin-top: 1em;
+}
+
+#list img {
+  margin-right: 0.2em;
+}
+#list ul li {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+
+article h3{
+  color: #212121;
+  font-size: 1.2em;
+}
+
+article h2{
+  color: #37474f;
+  font-size: 1.2em;
+}

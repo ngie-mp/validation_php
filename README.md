@@ -1,2 +1,4 @@
-# validation_php
-School work
+## Identifiants conexion
+
+- Username: userfriend
+- Password: 123456
